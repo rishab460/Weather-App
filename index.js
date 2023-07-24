@@ -21,7 +21,7 @@ async function checkWeather(city) {
 
         switch(data.weather[0].main) {
             case "Clouds":
-                weatherIcon.src = "/images/clouds.png";
+                weatherIcon.src = "images/clouds.png";
                 break;
             case "Clear":
                 weatherIcon.src = "images/clear.png";
